@@ -94,6 +94,17 @@
 
 /* -- End of Gallery Page --*/
 
+/* -- Footer Section --*/
+
+.copy{
+  text-align: center;
+}
+.giza{
+  margin-top: 1em;
+}
+
+/* -- End of Footer Section --*/
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
