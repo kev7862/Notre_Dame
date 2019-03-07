@@ -1,9 +1,31 @@
 /* -- Navbar Section --*/
+.katikati{
+  text-align: center;
+}
+
 .mwili{
   text-align: center;
 }
 
+/* -- Page-header Section --*/
+.page-jina{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #39526b;
+  margin-top: 1em;
+}
+.simu{
+  padding-left: 1em;
+  color: brown;
+}
 
+.baruaPepe{
+  padding-left: 1em;
+  color: brown;
+
+}
+
+/* -- Page-header Section --*/
 
 
 /* -- End of Navbar Section --*/
@@ -75,6 +97,10 @@
 
 
 /*-- Gallery Page -- */
+.pics{
+  color: #39526b;
+  margin-top: 2em;
+}
 
 .gallery{
   margin: 10px 50px;
