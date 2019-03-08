@@ -100,6 +100,7 @@
 .pics{
   color: #39526b;
   margin-top: 2em;
+  text-align: center;
 }
 
 .gallery{
@@ -124,12 +125,33 @@
 .fun{
   width: 100%;
   margin-bottom: 2rem;
+  margin-top: 2em;
 }
 .gif{
   width: 100%;
 }
-
 /* -- End of Emoji Section --*/
+
+/* -- About Us Styling -- */
+.parallax {
+  /* The image used */
+  background-image: url("images/red-ink-drop-on-white_4460x4460.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.kuhusu{
+  font-family: 'Special Elite', cursive;
+  padding-bottom: 1em;
+}
+/* -- End of About us Styling
 
 /* -- Footer Section --*/
 
