@@ -17,4 +17,6 @@ $(document).ready(function(){
 
         $('#back-to-top').tooltip('show');
 
+        swal("Here's the title!", "...and here's the text!");
+
 });
