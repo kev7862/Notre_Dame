@@ -118,6 +118,22 @@
   transform: scale(1.1);
 }
 
+.instaimg:hover{
+  margin-bottom: 30px;
+  transition: 1s;
+  width: 200px;
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}
+
+.modal-bodys{
+  margin-top: 2em;
+}
+.warn{
+  margin-bottom: 2em;
+}
+
+
 
 /* -- End of Gallery Page --*/
 
@@ -143,7 +159,7 @@
 /* -- About Us Styling -- */
 .parallax {
   /* The image used */
-  background-image: url("images/red-ink-drop-on-white_4460x4460.jpg");
+  background-image: url("images/green-orange-and-yellow-ink_4460x4460.jpg");
 
   /* Set a specific height */
   min-height: 500px;
@@ -158,6 +174,10 @@
 .kuhusu{
   font-family: 'Special Elite', cursive;
   padding-bottom: 1em;
+}
+
+.motto{
+  color: indigo;
 }
 /* -- End of About us Styling
 

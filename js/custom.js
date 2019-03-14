@@ -1,8 +1,21 @@
-<script type="text/javascript">
-    var userFeed = new Instafeed({
+$(document).ready(function(){
+var userFeed = new Instafeed({
         get: 'user',
-        userId: '81e978b3204453adbefa04b2657a0f9d',
-        accessToken: '2019-03-09 15:33:12 UTC'
+        userId: '11679627829',
+        limit: 12,
+        resolution: 'standard_resolution',
+        accessToken: '11679627829.1677ed0.0160f409595a4afa86e62c787a533ba0',
+        sortBy: 'most-recent',
+        template: '<div class="col-lg-3 col-md-12gallery instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
     });
     userFeed.run();
-</script>
+
+    // This will create a single gallery from all elements that have class "gallery-item"
+    $('.gallery-items').magnificPopup({
+      type: 'image',
+      delegate: 'a',
+      gallery:{
+        enabled:true
+      }
+    });
+    });
