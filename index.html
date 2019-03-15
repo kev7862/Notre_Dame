@@ -5,13 +5,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="lightbox2-master/dist/css/lightbox.css" rel="stylesheet">
 	<title>Notre Dame School Syokimau Kenya</title>
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery-1.js"></script>
+	<script src="js/script.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+	<script src="js/Teleprompter/jquery.teleprompter.js"></script>
 	<link href="style.css" rel="stylesheet">
 	<link href="magnific.css" rel="stylesheet">
 	<script src="lightbox2-master/dist/js/lightbox.js"></script>
-	<script src="js/script.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="js/instafeed.min.js"></script>
 	<script src="js/magnific.min.js"></script>
@@ -27,7 +32,7 @@
 <nav class="navbar navbar-expand-md navbar-light fixed">
 
 	<div class="container">
-		<a href="index.html"><img src="images/notre_dame_school_logo.png"></a>
+		<a href="index.html"><img class="schlogo" src="images/notre_dame_school_logo.png"></a>
 
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 <span class="navbar-toggler-icon"></span>
@@ -83,10 +88,10 @@
 
 <!-- Page-header Section -->
 
-<div class="container">
+<div class="container ">
 	<div class="row">
 		<div class="col-12">
-			<h2 class="page-jina">Welcome To Notre Dame School Syokimau</h2>
+			<h2 class="page-jina topHeader">Welcome To Notre Dame School Syokimau</h2>
 </div>
 
 	</div>
@@ -138,15 +143,88 @@
 
 <!-- End of Carousel -->
 
+<!--Vision and Mission Begins -->
 
-<!--- Jumbotron -->
+<!-- Grid row -->
+<div class="container pellets">
+<div class="row accordion-gradient-bcg d-flex justify-content-center">
+
+  <!-- Grid column -->
+  <div class="col-md-10 col-xl-6 py-5">
+
+    <!--Accordion wrapper-->
+    <div class="accordion md-accordion accordion-2" id="accordionEx7" role="tablist" aria-multiselectable="true">
+
+      <!-- Accordion card -->
+      <div class="card">
+
+        <!-- Card header -->
+        <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab" id="heading1">
+          <a data-toggle="collapse" data-parent="#accordionEx7" href="#collapse1" aria-expanded="true"
+            aria-controls="collapse1">
+            <h5 class="mb-0 white-text text-uppercase font-thin">
+              Vision &nbsp;<i class="fas fa-angle-down rotate-icon"></i>
+            </h5>
+          </a>
+        </div>
+
+        <!-- Card body -->
+        <div id="collapse1" class="collapse show" role="tabpanel" aria-labelledby="heading1" data-parent="#accordionEx7">
+          <div class="card-body mb-1 rgba-grey-light white-text">
+            <p>Notre Dame School Syokimau envisions the integral formation of young men and women who are deeply commited to the love of God and the love of all people as the centre of their lives, through creative effort to live as true citizens of our country Kenya, and to uphold life on our beautiful earth with gratitude and fraternal love.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Accordion card -->
+
+      <!-- Accordion card -->
+      <div class="card">
+
+        <!-- Card header -->
+        <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab" id="heading2">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7" href="#collapse2"
+            aria-expanded="false" aria-controls="collapse2">
+            <h5 class="mb-0 white-text text-uppercase font-thin">
+              Mission <i class="fas fa-angle-down rotate-icon"></i>
+            </h5>
+          </a>
+        </div>
+
+        <!-- Card body -->
+        <div id="collapse2" class="collapse" role="tabpanel" aria-labelledby="heading2" data-parent="#accordionEx7">
+          <div class="card-body mb-1 rgba-grey-light white-text">
+            <p>"Aware of the goodness of God in our own lives and imbued with the spirit of love we commit ourselves"</p>
+						<p>"To accept and respect the preciousness of every child."</p>
+						<p>"To impart christian values to transform self and society"</p>
+						<p>"To instill in every child the quest for knowledge and wonder to provide an atmosphere for creative thinking"</p>
+						<p>"To create awareness, respect and love for nature and environment."</p>
+          </div>
+        </div>
+      </div>
+      <!-- Accordion card -->
+
+    </div>
+    <!--/.Accordion wrapper-->
+
+  </div>
+  <!-- Grid column -->
+
+</div>
+</div>
+<!-- Grid row -->
+
+
+<!--Vision and Mission Ends Here-->
+
+
+<!-- Jumbotron -->
 
 <!-- Image gallery Section -->
 
 <div class="container">
 	<div class="row">
 		<div class="col-12">
-			<h2 class="pics" id="gal-section">Our Gallery</h2>
+			<h2 class="pics pro" id="gal-section">Our Gallery</h2>
 
 		</div>
 
@@ -192,7 +270,7 @@
   <div class="card-body card-body-cascade text-center">
 
     <!-- Title -->
-    <h4 class="card-title" id="history-section"><strong>Our History</strong></h4>
+    <h4 class="card-title pro" id="history-section"><strong>Our History</strong></h4>
     <!-- Subtitle -->
     <h6 class="font-weight-bold motto py-2">Motto: Lead Me From Darkness to Light</h6>
     <!-- Text -->
@@ -212,7 +290,7 @@
 
 
 <!-- Modal -->
-<div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+<div class="modal fade pro" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
 	aria-hidden="true">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
@@ -257,7 +335,7 @@
 
 
 <!--- Admission Section -->
-<div class="container">
+<div class="container pro">
 	<div class="row">
 		<div class="col-12">
 			<h2 class="pics" id="admission-section">Admission</h2>
@@ -439,7 +517,7 @@
 
 <!--- Contact -->
 
-<div class="container">
+<div class="container pro">
     <div class="row">
         <div class="col-md-8">
         	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2371.694611774911!2d36.93752936940711!3d-1.3572177806114412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f0d3922f466b5%3A0xa6eab4ef0d306a01!2sNotre+Dame+Primary+School!5e0!3m2!1sen!2ske!4v1551622770754" width="100%" height="350" frameborder="0" style="border:0" marginwidth="0" scrolling="no" allowfullscreen></iframe>
@@ -467,7 +545,7 @@
 <!--- Footer -->
 <div class="col-12">
 <hr class="giza">
-<h6 class="copy">&copy; 2019 Notre Dame School Syokimau.: All Rights Reserved. by<a href="https://www.websitekali.co.ke"> Websitekali</a></h6>
+<h6 class="copy pro">&copy; 2019 Notre Dame School Syokimau.: All Rights Reserved. by<a href="https://www.websitekali.co.ke"> Websitekali</a></h6>
 
 </div>
 
