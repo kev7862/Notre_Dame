@@ -25,6 +25,11 @@
 
 }
 
+.topKichwa{
+  text-align: center;
+
+}
+
 /* -- Page-header Section --*/
 
 
@@ -51,10 +56,6 @@
 }
 
 /*-- End of Social Media Styling -- */
-
-.page-header{
-  margin-top: 2em;
-}
 
 /*--- Carousel Styling --- */
 .carousel-inner img{
