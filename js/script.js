@@ -1,7 +1,6 @@
 $(document).ready(function(){
 
 
-
         // Tween-Max Section
         var slido = document.getElementsByClassName('slido');
         TweenMax.from(slido, 1, {x:200, autoAlpha:1});
@@ -18,27 +17,24 @@ var ourScene = new ScrollMagic.Scene({
 
 
 
-//Preloader Begins Here
-  setTimeout(function() {
-    $('.wrapper').addClass('loaded');
 
-  }, 3000);
-});
+           //Preloader Begins Here
+      //       setTimeout(function() {
+        //       $('.kifungo').addClass('loaded');
 
-
-
-jQuery(function(){
-
-  $(window).load(function(){
-
-  $('.wrapper').removeClass('preload');
-
-  });
+        //     }, 3000);
 
 
-//Preloader Ends Here
 
 
+      //       $(window).load(function(){
+
+        //     $('.kifungo').removeClass('preload');
+
+        //     });
+
+
+           //Preloader Ends Here
 
 
 
@@ -61,6 +57,8 @@ jQuery(function(){
            });
 
            $('#back-to-top').tooltip('show');
+
+
 
 
 

@@ -98,7 +98,7 @@
 /* -- Preloader Begins Here-- */
 @import "bourbon";
 
-.wrapper {
+.kifungo {
   position: relative;
   height: 100%;
   width: 100%;
@@ -259,7 +259,7 @@
 .loaded #loader-wrapper {
   visibility: hidden;
   transform: translateX(-100%);
-  transition: all 0.3s 1s ease-out;
+  transition: fadeOut ;
 }
 
 
@@ -276,7 +276,7 @@
 }
 
 .preload * {
-  transition: none !important;
+  transition: 1s !important;
 }
 
 html
@@ -287,7 +287,7 @@ html
 
 
 
-.wrapper{
+.kifungo{
   position: absolute;
   left: 0;
   top: 0;
@@ -397,16 +397,7 @@ html
 
 /* -- End of Footer Section --*/
 
-/* -- Return-to-top Begins Here --*/
-.back-to-top {
-    cursor: pointer;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display:none;
-}
 
-/* -- Back-To-Top Ends Here --*/
 
 /* -- Vision and Mission Section --*/
 .pellets {
@@ -418,7 +409,98 @@ html
                                           rgba(10, 23, 187, 0.6) 100%);
 
 
+
 }
+
+/* -- What We offer Section Begins Here -- */
+.tollas
+{
+	background:#00bcd4;
+}
+
+.biggs
+{
+	color:#000;
+	margin:40px 0 60px 0;
+	font-weight:300;
+}
+
+.our-team-main
+{
+	width:100%;
+	height:auto;
+	border-bottom:5px #323233 solid;
+	background:#fff;
+	text-align:center;
+	border-radius:10px;
+	overflow:hidden;
+	position:relative;
+	transition:0.5s;
+	margin-bottom:28px;
+}
+
+
+.our-team-main .chupa
+{
+	border-radius:50%;
+	margin-bottom:20px;
+	width: 90px;
+}
+
+.our-team-main .hero
+{
+	font-size:20px;
+	font-weight:700;
+}
+
+.our-team-main .stella
+{
+	margin-bottom:0;
+}
+
+.team-back
+{
+	width:100%;
+	height:auto;
+	position:absolute;
+	top:0;
+	left:0;
+	padding:5px 15px 0 15px;
+	text-align:left;
+	background:#fff;
+
+}
+
+.team-front
+{
+	width:100%;
+	height:auto;
+	position:relative;
+	z-index:10;
+	background:#fff;
+	padding:15px;
+	bottom:0px;
+	transition: all 0.5s ease;
+}
+
+.our-team-main:hover .team-front
+{
+	bottom:-200px;
+	transition: all 0.5s ease;
+}
+
+.our-team-main:hover
+{
+	border-color:#777;
+	transition:0.5s;
+}
+
+/*our-team-main*/
+
+
+
+
+/* -- What We offer Section Ends Here -- */
 
 
 /* -- End of Vision and Mission Section --*/
@@ -449,3 +531,14 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
+
+/* -- Return-to-top Begins Here --*/
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+
+/* -- Back-To-Top Ends Here --*/
