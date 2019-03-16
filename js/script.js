@@ -14,14 +14,29 @@ var ourScene = new ScrollMagic.Scene({
 })
 .setClassToggle('.pro', 'fade-in');
 
-//teleprompter Section
-var tele = document.getElementById('tele');
-$("#tele").teleprompter();
 
 
 
 
+//Preloader Begins Here
+  setTimeout(function() {
+    $('.wrapper').addClass('loaded');
 
+  }, 3000);
+});
+
+
+
+jQuery(function(){
+
+  $(window).load(function(){
+
+  $('.wrapper').removeClass('preload');
+
+  });
+
+
+//Preloader Ends Here
 
 
 
