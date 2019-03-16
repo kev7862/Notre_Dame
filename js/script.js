@@ -3,8 +3,8 @@ $(document).ready(function(){
 
 
         // Tween-Max Section
-        var navbarResponsive = document.getElementById('navbarResponsive');
-        TweenMax.from(navbarResponsive, 1, {x:200, autoAlpha:1});
+        var slido = document.getElementsByClassName('slido');
+        TweenMax.from(slido, 1, {x:200, autoAlpha:1});
 
         // ScrollMagic
 var controller = new ScrollMagic.Controller();
