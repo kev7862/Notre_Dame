@@ -37,7 +37,16 @@
   font-family: 'Noticia Text', serif;
   text-align: center;
 
+}
 
+.dong{
+  opacity: 0;
+  transform: translateY(200px);
+  transition: all 1s ease-out;
+}
+.dong.fade-in{
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* -- Page-header Section --*/
@@ -313,13 +322,12 @@ html
 /*-- Gallery Page -- */
 
 .gallery{
-  margin: 10px 50px;
+
 }
 
 .gallery .picha{
   transition: 1s;
-  padding: 15px;
-  width: 200px;
+  padding: 1em;
 }
 
 .gallery .picha:hover{
@@ -330,7 +338,6 @@ html
 .instaimg:hover{
   margin-bottom: 30px;
   transition: 1s;
-  width: 200px;
   filter: grayscale(100%);
   transform: scale(1.1);
 }
@@ -409,7 +416,7 @@ html
 
 /* -- Vision and Mission Section --*/
 .pellets {
-  margin-top: 3em;
+  margin-top: 1em;
   background-color: linear-gradient(45deg,rgba(234,21,129,.6),
                     rgba(10,23,187,.6) 100%);
                     background-image: linear-gradient(45deg, rgba(234, 21, 129, 0.6),

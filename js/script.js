@@ -8,10 +8,20 @@ $(document).ready(function(){
         // ScrollMagic
 var controller = new ScrollMagic.Controller();
 
-var ourScene = new ScrollMagic.Scene({
-  triggerElement: '.pro'
-})
-.setClassToggle('.pro', 'fade-in');
+
+// Loop through each ".pro" projects container
+$('.dong').each(function(){
+
+  //build a scene
+  var ourScene = new ScrollMagic.Scene({
+  triggerElement: this, reverse: true
+  })
+
+  .setClassToggle(this, 'fade-in')
+  .addTo(controller);
+
+});
+// End of Loop
 
 
 
