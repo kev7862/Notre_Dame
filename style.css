@@ -31,6 +31,15 @@
 
 }
 
+.maheader{
+  margin-top: 3em;
+  margin-bottom: 3em;
+  font-family: 'Noticia Text', serif;
+  text-align: center;
+
+
+}
+
 /* -- Page-header Section --*/
 
 
@@ -302,11 +311,6 @@ html
 
 
 /*-- Gallery Page -- */
-.pics{
-  color: #39526b;
-  margin-top: 2em;
-  text-align: center;
-}
 
 .gallery{
   margin: 10px 50px;
@@ -384,6 +388,10 @@ html
 .motto{
   color: indigo;
 }
+
+.macadi{
+  margin-top: 3em;
+}
 /* -- End of About us Styling
 
 /* -- Footer Section --*/
@@ -402,15 +410,14 @@ html
 /* -- Vision and Mission Section --*/
 .pellets {
   margin-top: 3em;
-  justify-content: center;
   background-color: linear-gradient(45deg,rgba(234,21,129,.6),
                     rgba(10,23,187,.6) 100%);
                     background-image: linear-gradient(45deg, rgba(234, 21, 129, 0.6),
                                           rgba(10, 23, 187, 0.6) 100%);
 
 
-
 }
+
 
 /* -- What We offer Section Begins Here -- */
 .tollas
